@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tu puedes</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <body>
+    <h1> Computacion</h1>
+    <!-- Navegación de Pestañas -->
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'fase1')">
+        Fase 1, Fundamentos
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'fase2')">
+        Fase 2, Exploracion
+      </button>
+      <button class="tablinks" onclick="openTab(event, 'fase3')">
+        Recomendaciones
+      </button>
+    </div>
+
+    <div id="fase1" class="tabcontent">
+      <h2>Fase 1, Fundamentos y Exploración</h2>
+      <ul>
+        <li>
+          <input type="checkbox" id="introComputacion" />
+          <span class="collapsible"
+            >Introducción a la Computación: Aprender sobre los componentes
+            básicos de una computadora y uso de sistemas operativos.</span
+          >
+          <ul class="content">
+            <li>
+              <a href="https://www.computerhope.com/history" target="_blank"
+                >Historia de las computadoras</a
+              >
+            </li>
+            <li>
+              <a href="https://docs.microsoft.com/en-us/learn/" target="_blank"
+                >Microsoft Learn para Sistemas Operativos</a
+              >
+            </li>
+            <li>
+              <p>Busca en google contenido de Linux, sistema operativo ampliamente utilizado en internet</p>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <input type="checkbox" id="progBasica" />
+          <span class="collapsible"
+            >Programación Básica: Iniciar con lenguajes amigables como Scratch o
+            Blockly para entender la lógica de programación.
+          </span>
+          <ul class="content">
+            <li>
+              <a
+                href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
+                target="_blank"
+                >Aprende con Scratch</a
+              >
+            </li>
+            <li>
+              <a href="https://blockly.games/" target="_blank"
+                >Experimenta con Blockly</a
+              >
+            </li>
+            <li>
+              <a href="https://studio.code.org/s/express-2021" target="_blank"
+                >Programación</a
+              >
+            </li>
+            <li>
+              <a href="https://arcade.makecode.com/" target="_blank">Juegos</a>
+            </li>
+            <li>
+              <a href="https://www.khanacademy.org/computing" target="_blank"
+                >Fundamentos de Computación en Khan Academy</a
+              >
+            </li>
+          </ul>
+        </li>
+        <!-- ... -->
+
+        <li>
+          <input type="checkbox" id="matematicasLogica" />
+          <span class="collapsible"
+            >Matemáticas y Lógica: Reforzar conceptos matemáticos, especialmente
+            en álgebra y lógica.</span
+          >
+          <ul class="content">
+            <li>
+              <a href="https://es.khanacademy.org/math" target="_blank">Khan Academy Matemáticas</a>
+            </li>
+            <li>
+              <a href="https://mathigon.org/" target="_blank">Mathigon</a>
+            </li>
+            <li>
+              <a href="https://es.ixl.com/math/" target="_blank">IXL Matemáticas</a>
+            </li>
+            <li>
+              <a href="https://www.geogebra.org/" target="_blank">GeoGebra Matemáticas</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="seguridadInternet">
+          <span class="collapsible">Seguridad en Internet: Aprender sobre seguridad básica en internet, contraseñas seguras, phishing, y seguridad en redes sociales.</span>
+          <ul class="content">
+              <li><a href="https://www.pantallasamigas.net/ciberseguridad-para-videojuegos-gaming/" target="_blank">Consejos de seguridad</a></li>
+              <li><a href="https://beinternetawesome.withgoogle.com/es-419_all/interland" target="_blank">Juego</a></li>
+              <li><a href="hhttps://www.chicos.net/recursos" target="_blank">Recursos</a></li>
+          </ul>
+      </li>
+        <li>
+          <input type="checkbox" id="proyectosExperimentacion" />Experimentación
+        </li>
+      </ul>
+    </div>
+
+    <div id="fase2" class="tabcontent">
+      <h2>Fase 2: Profundización y Enfoque en Seguridad</h2>
+      <ul>
+        <li>
+          <input type="checkbox" id="progAvanzada">
+          <span class="collapsible">Programación Avanzada: Aprender  Python y bash scripting</span>
+          <ul class="content">
+              <li><a href="https://learn.microsoft.com/es-es/training/paths/beginner-python/" target="_blank">Aprendiendo Python</a></li>
+              <li><a href="https://www.edx.org/es/learn/computer-programming" target="_blank">Computacion en la nube</a></li>
+              <li><a href="https://www.coursera.org/learn/programacion-python" target="_blank">Python </a></li>
+              <li><a href="https://docs.microsoft.com/es-es/learn/roles/developer/" target="_blank">Microsoft Learn para Desarrolladores</a></li>
+              <li><a href="https://developers.google.com/edu/python" target="_blank">Google's Python Class</a></li>
+              <li><a href="https://www.freecodecamp.org/espanol/" target="_blank">FreeCodeCamp en Español</a></li>
+              <li><a href="https://overthewire.org/wargames/"> ctf, para aprender bash scripting</a></li>
+          </ul>
+      </li>
+      <li>
+        <input type="checkbox" id="conceptosRedes">
+        <span class="collapsible">Conceptos Básicos de Redes: Entender cómo funcionan las redes de computadoras e Internet, conceptos básicos de TCP/IP y DNS.</span>
+        <ul class="content">
+          <li><a href="https://www.youtube.com/watch?v=k2e6eWyn0fE&list=RDCMUCRWjpn9LNoQqhJ59AT_yxPw&start_radio=1&rv=k2e6eWyn0fE&t=8&ab_channel=yacklyon" target="_blank">RedesZone</a></li>
+            <li><a href="https://www.netacad.com/es/courses/all-courses" target="_blank">Cisco Networking Academy</a></li>
+            <li><a href="https://www.youtube.com/results?search_query=fundamentos+de+redes+de+computadoras" target="_blank">YouTube - Clases y Tutoriales de Redes</a></li>
+            <li><a href="https://tecnogaming.com/tag/redes/" target="_blank">TecnoGaming - Redes</a></li>
+        </ul>
+    </li>
+    <li>
+      <input type="checkbox" id="introduccionSeguridad">
+      <span class="collapsible">Introducción a la Seguridad Informática: Aprender los fundamentos, diferentes tipos de ataques y cómo prevenirlos.</span>
+      <ul class="content">
+          <li><a href="https://academy.hackthebox.com/" target="_blank">Aprendiendo hacking</a></li>   
+      </ul>
+  </li>
+  <li>
+    <input type="checkbox" id="herramientasSeguridad">
+    <span class="collapsible">Herramientas de Seguridad: Empezar a usar herramientas básicas como antivirus y firewalls.</span>
+    <ul class="content">
+        <li><a href="https://github.com/kodekloudhub/linux-basics-course/blob/master/docs/06-Security-and-File-Permissions/07-IPtables.md" target="_blank">IP tables</a></li>
+        <li><a href="https://www.virustotal.com" target="_blank">ZoneAlarm Free Firewall</a></li>
+        <li><a href="https://github.com/cybertoxin?tab=repositories"> Rats y virus  </a></li>
+    </ul>
+</li>
+
+        <li>
+          <input type="checkbox" id="proyectosRetosSeguridad" />
+          <span class="collapsible">Ponte a prueba</span>
+          <ul class="content">
+            <li><a href="https://hackthebox.com/" target="_blank">Hack the box</a></li>
+            <li> <a href="https://www.rootedcon.com/" target="_blank">RootedCon</a></li>
+        </ul>
+        </li>
+      </ul>
+    </div>
+    <div id="fase3" class="tabcontent">
+      <h2>Recomendaciones</h2>
+      <p>
+          En el camino del aprendizaje y la exploración en el mundo de la informática y la seguridad cibernética, es importante recordar que <strong>no hay metas inalcanzables</strong>. Puede que algunos retos parezcan difíciles al principio, pero con <strong>perseverancia, esfuerzo inteligente y confianza en tus propias capacidades</strong>, podrás superar cualquier obstáculo y alcanzar tus objetivos.
+  
+          Recuerda que cada experto alguna vez fue un principiante. Lo importante no es saberlo todo desde el inicio, sino estar dispuesto a aprender y crecer cada día. <strong>La curiosidad, la paciencia y la constancia</strong> son tus mejores aliados en este emocionante viaje. 
+  
+          No dudes en buscar ayuda, unirte a comunidades y compartir tus experiencias. Aprender de otros y contribuir a su aprendizaje es parte esencial de tu desarrollo. Y sobre todo, <strong>creer en ti mismo</strong>: tu determinación y tus ganas de aprender son la clave para convertirte en el profesional que aspiras ser.
+      </p>
+      <br>
+      <p class="importante"> <span>⚠️</span>
+        Importante: Aprende inglés. Dominar el inglés te abrirá las puertas a un vasto mundo de conocimientos y recursos en el campo de la informática y la ciberseguridad. La mayoría de la documentación técnica, foros de discusión importantes, y cursos de vanguardia se encuentran en este idioma. Aprender inglés no solo mejorará tu comprensión técnica, sino que también ampliará tus horizontes y te permitirá conectarte con profesionales y comunidades a nivel global.
+      </p>
+
+      <p>Si tienes alguna duda buscame en telegram como @0xfernando</p>
+  </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
